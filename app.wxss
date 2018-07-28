@@ -1,0 +1,23 @@
+/**app.wxss**/
+view , text{
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.swipers{
+  width: 100%;
+  height: 300rpx;
+  /* background-color: #eee; */
+}
+.swipers image{
+  width: 100%;
+ height: 300rpx;
+}

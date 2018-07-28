@@ -1,0 +1,25 @@
+<wxs module="sub" src="./num.wxs"></wxs>
+
+<view class='list'  wx:for="{{lists}}" wx:key="{{item.id}}" bindtap='todetail' data-id="{{item.id}}">
+      <view class='left'>
+    <image src="{{item.images[0]}}"></image>
+  </view>
+  <view class='right'>
+    <view class='title'>
+      {{item.name}}
+    </view>
+    <view class='phone'>
+      电话：{{item.phone}}
+    </view>
+    <view class='address'> 
+      地址 ： {{ sub.subStrNum(item.address) }}
+    </view>
+      营业时间：{{item.businessHours}}
+  </view>
+</view>
+
+<view class='loading'>
+  
+  <image wx:if="{{hasData}}" src="/imgs/1532747963(1).png"></image>
+  <text wx:else="{{hasData}}">已经到底</text>
+</view>

@@ -1,0 +1,10 @@
+<!--pages/listDetail/listDetail.wxml-->
+<!-- <text>pages/我是详情页面/listDetail.wxml</text> -->
+<!-- 轮播图 -->
+<view class='swipers'>
+  <swiper indicator-dots="true">
+    <swiper-item wx:for="{{ imgList }}">
+        <image src="{{ item }}" bindtap='imgView' data-imgurl="{{item}}"></image>
+    </swiper-item>
+  </swiper>
+</view>

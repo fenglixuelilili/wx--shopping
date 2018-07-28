@@ -1,0 +1,44 @@
+/* pages/detail/detail.wxss */
+.list{
+  display: flex;
+  height: 250rpx;
+  width: 100%;
+  /* background-color: #ccc; */
+  padding: 6rpx;
+  font-size: 28rpx;
+}
+
+.left{
+  flex: 1;
+  /* background-color: #aaa; */
+}
+.left image{
+  width: 100%;
+  height: 100%;
+}
+.right{
+  flex: 2;
+  /* background-color: #000; */
+  margin-left: 10rpx;
+  padding-right: 5rpx;
+}
+.right .phone{
+  line-height: 80rpx;
+}
+.right .address{
+  margin-bottom: 18rpx;
+}
+.right .title{
+  font-weight: 800;
+}
+
+.loading{
+  margin-top: 20rpx;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
+.loading image{
+  height: 50px;
+  width: 45px;
+}

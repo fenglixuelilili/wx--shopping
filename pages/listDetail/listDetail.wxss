@@ -1,0 +1,14 @@
+/* pages/listDetail/listDetail.wxss */
+.swipers{
+  width: 100%;
+  height: 400rpx;
+  /* background-color: #ccc; */
+}
+.swipers swiper{
+  height: 100%;
+}
+.swipers image {
+   width: 100%;
+   height: 400rpx;
+}
+

@@ -1,0 +1,114 @@
+view,text{
+  box-sizing: border-box;
+}
+.ads{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: flex-start;
+    /* padding: 5rpx; */
+    /* margin-left: 10rpx; */
+    margin-top: 2rpx;
+   
+}
+
+
+.wrap {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.swipers {
+  height: 350rpx;
+  width: 100%;
+}
+
+.slide-image {
+  display: block;
+  width: 100%;
+  height: 350rpx;
+}
+.swipers image {
+width:100%;
+height:100%;
+
+}
+
+/*用来包裹所有的小圆点  */
+
+.dots {
+  width: 156rpx;
+  height: 36rpx;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 320rpx;
+  bottom: 20rpx;
+}
+
+/*未选中时的小圆点样式 */
+
+.dot {
+  width: 26rpx;
+  height: 26rpx;
+  border-radius: 50%;
+  margin-right: 26rpx;
+  background-color: white;
+}
+
+
+
+/*选中以后的小圆点样式  */
+
+.active {
+  width: 36rpx;
+  height: 26rpx;
+  border-radius: 30rpx;
+  background-color: coral;
+}
+
+
+
+
+
+.ads .ad{
+  width: 252rpx;
+  height: 252rpx;
+  border: 1rpx solid #ccc;
+  margin-left: -1rpx;
+  margin-bottom: -1rpx;
+  text-align: center;
+  padding-top: 54rpx;
+  font-size: 28rpx;
+   position: relative;
+}
+.ads .ad image {
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: 20rpx;
+  margin-top: 30rpx;
+}
+.jiu{
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+}
+.firends{
+  display: flex;
+  width: 100%;
+  height: 270rpx;
+  /* border:1px solid red; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.firends > view{
+  height: 206rpx;
+}
+.firends > view image {
+  width: 300rpx;
+  height: 170rpx;
+}
+

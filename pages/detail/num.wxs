@@ -1,0 +1,17 @@
+function subStrNum(str){
+  if(str.length > 30){
+      var str = str.slice(0,30);
+      str += "...";
+      return str;
+  }else{
+    return str;
+  }
+}
+
+module.exports = {
+  subStrNum: subStrNum
+}
+
+// export default {
+//   subStrNum
+// }
